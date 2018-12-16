@@ -5,7 +5,7 @@ const uuidv4 = require('uuid/v4');
 
 var dynamodb = new aws.DynamoDB.DocumentClient();
 
-exports.handler = function (event, context, callback) {
+exports.main = function (event, context, callback) {
 
   var params = {
     TableName: 'MoodDb',
