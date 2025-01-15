@@ -17,5 +17,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: demo-app
+  owner: demo-app-team
   system: public-websites
