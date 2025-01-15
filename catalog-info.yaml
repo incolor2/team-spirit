@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-application
+  description: Some great description
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: somewebapp    
+  tags:
+    - dotnet
+  links:
+    - url: https://admin.demo-application.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: demo-app
+  system: public-websites
